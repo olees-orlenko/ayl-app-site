@@ -9,8 +9,20 @@
         h1 { color: #CD88FC; }
         .description { margin: 20px 0; font-size: 1.1em; }
         .features { text-align: left; display: inline-block; margin: 20px 0; }
-        .links { margin-top: 40px; padding-top: 20px; border-top: 1px solid #CD88FC; }
-        .links a { margin: 0 10px; color: #57B4FA; text-decoration: none; }
+        .links {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #CD88FC;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px 20px;
+        }
+        .links a {
+            margin: 0;
+            color: #57B4FA;
+            text-decoration: none;
+        }
         .btn-appstore { display: inline-block; padding: 12px 24px; background: #55FAD2; color: #fff; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 20px; }
     </style>
 </head>
